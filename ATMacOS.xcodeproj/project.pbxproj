@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80377D68218FDD54004A4B05 /* ZWYNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D64218FDD54004A4B05 /* ZWYNetTool.m */; };
+		80377D69218FDD54004A4B05 /* ZWYNetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D67218FDD54004A4B05 /* ZWYNetTest.m */; };
+		80377D78218FDD6C004A4B05 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D6F218FDD6C004A4B05 /* AFURLResponseSerialization.m */; };
+		80377D79218FDD6C004A4B05 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D70218FDD6C004A4B05 /* AFHTTPSessionManager.m */; };
+		80377D7A218FDD6C004A4B05 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D72218FDD6C004A4B05 /* AFURLSessionManager.m */; };
+		80377D7B218FDD6C004A4B05 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D73218FDD6C004A4B05 /* AFURLRequestSerialization.m */; };
+		80377D7C218FDD6C004A4B05 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D75218FDD6C004A4B05 /* AFNetworkReachabilityManager.m */; };
+		80377D7D218FDD6C004A4B05 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D76218FDD6C004A4B05 /* AFSecurityPolicy.m */; };
+		80377D88218FE2F6004A4B05 /* ZWYCityCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D81218FE2F5004A4B05 /* ZWYCityCity.m */; };
+		80377D89218FE2F6004A4B05 /* ZWYCityA.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D83218FE2F6004A4B05 /* ZWYCityA.m */; };
+		80377D8A218FE2F6004A4B05 /* ZWYCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D85218FE2F6004A4B05 /* ZWYCityModel.m */; };
+		80377D8B218FE2F6004A4B05 /* ZWYCityData.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D86218FE2F6004A4B05 /* ZWYCityData.m */; };
+		80377D9121902685004A4B05 /* ZWYResCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D8D21902685004A4B05 /* ZWYResCity.m */; };
+		80377D9221902685004A4B05 /* ZWYResModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D8E21902685004A4B05 /* ZWYResModel.m */; };
+		80377D9821902A76004A4B05 /* BRNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D9521902A76004A4B05 /* BRNumberField.m */; };
+		80377D9921902A76004A4B05 /* BRNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D9721902A76004A4B05 /* BRNumberFormatter.m */; };
+		80377D9D21903B0D004A4B05 /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D9C21903B0D004A4B05 /* JX_GCDTimerManager.m */; };
+		80377DA021904322004A4B05 /* ZWYResFlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 80377D9F21904321004A4B05 /* ZWYResFlight.m */; };
+		803C2E5A21912338007E06A9 /* NSTableView+RightMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C2E5921912338007E06A9 /* NSTableView+RightMenu.m */; };
+		804A52CE218AA74500B6BD8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 804A52CD218AA74500B6BD8F /* AppDelegate.m */; };
+		804A52D1218AA74500B6BD8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804A52D0218AA74500B6BD8F /* ViewController.m */; };
+		804A52D3218AA74700B6BD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804A52D2218AA74700B6BD8F /* Assets.xcassets */; };
+		804A52D6218AA74700B6BD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804A52D4218AA74700B6BD8F /* Main.storyboard */; };
+		804A52D9218AA74700B6BD8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 804A52D8218AA74700B6BD8F /* main.m */; };
+		804A52E2218AA79400B6BD8F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804A52E1218AA79400B6BD8F /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80377D64218FDD54004A4B05 /* ZWYNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYNetTool.m; sourceTree = "<group>"; };
+		80377D65218FDD54004A4B05 /* ZWYNetTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYNetTest.h; sourceTree = "<group>"; };
+		80377D66218FDD54004A4B05 /* ZWYNetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYNetTool.h; sourceTree = "<group>"; };
+		80377D67218FDD54004A4B05 /* ZWYNetTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYNetTest.m; sourceTree = "<group>"; };
+		80377D6B218FDD6C004A4B05 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		80377D6C218FDD6C004A4B05 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		80377D6D218FDD6C004A4B05 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		80377D6E218FDD6C004A4B05 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		80377D6F218FDD6C004A4B05 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		80377D70218FDD6C004A4B05 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		80377D71218FDD6C004A4B05 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		80377D72218FDD6C004A4B05 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		80377D73218FDD6C004A4B05 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		80377D74218FDD6C004A4B05 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		80377D75218FDD6C004A4B05 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		80377D76218FDD6C004A4B05 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		80377D77218FDD6C004A4B05 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		80377D80218FE2F5004A4B05 /* ZWYCityCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYCityCity.h; sourceTree = "<group>"; };
+		80377D81218FE2F5004A4B05 /* ZWYCityCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYCityCity.m; sourceTree = "<group>"; };
+		80377D82218FE2F5004A4B05 /* ZWYCityA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYCityA.h; sourceTree = "<group>"; };
+		80377D83218FE2F6004A4B05 /* ZWYCityA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYCityA.m; sourceTree = "<group>"; };
+		80377D84218FE2F6004A4B05 /* ZWYCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYCityModel.h; sourceTree = "<group>"; };
+		80377D85218FE2F6004A4B05 /* ZWYCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYCityModel.m; sourceTree = "<group>"; };
+		80377D86218FE2F6004A4B05 /* ZWYCityData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYCityData.m; sourceTree = "<group>"; };
+		80377D87218FE2F6004A4B05 /* ZWYCityData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYCityData.h; sourceTree = "<group>"; };
+		80377D8D21902685004A4B05 /* ZWYResCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYResCity.m; sourceTree = "<group>"; };
+		80377D8E21902685004A4B05 /* ZWYResModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYResModel.m; sourceTree = "<group>"; };
+		80377D8F21902685004A4B05 /* ZWYResModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYResModel.h; sourceTree = "<group>"; };
+		80377D9021902685004A4B05 /* ZWYResCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYResCity.h; sourceTree = "<group>"; };
+		80377D9421902A76004A4B05 /* BRNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRNumberFormatter.h; sourceTree = "<group>"; };
+		80377D9521902A76004A4B05 /* BRNumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRNumberField.m; sourceTree = "<group>"; };
+		80377D9621902A76004A4B05 /* BRNumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRNumberField.h; sourceTree = "<group>"; };
+		80377D9721902A76004A4B05 /* BRNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRNumberFormatter.m; sourceTree = "<group>"; };
+		80377D9B21903B0D004A4B05 /* JX_GCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX_GCDTimerManager.h; sourceTree = "<group>"; };
+		80377D9C21903B0D004A4B05 /* JX_GCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX_GCDTimerManager.m; sourceTree = "<group>"; };
+		80377D9E21904321004A4B05 /* ZWYResFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYResFlight.h; sourceTree = "<group>"; };
+		80377D9F21904321004A4B05 /* ZWYResFlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYResFlight.m; sourceTree = "<group>"; };
+		803C2E5821912338007E06A9 /* NSTableView+RightMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTableView+RightMenu.h"; sourceTree = "<group>"; };
+		803C2E5921912338007E06A9 /* NSTableView+RightMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+RightMenu.m"; sourceTree = "<group>"; };
+		804A52C9218AA74500B6BD8F /* ATMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		804A52CC218AA74500B6BD8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		804A52CD218AA74500B6BD8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		804A52CF218AA74500B6BD8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		804A52D0218AA74500B6BD8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		804A52D2218AA74700B6BD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		804A52D5218AA74700B6BD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		804A52D7218AA74700B6BD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804A52D8218AA74700B6BD8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		804A52DA218AA74700B6BD8F /* ATMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ATMacOS.entitlements; sourceTree = "<group>"; };
+		804A52E1218AA79400B6BD8F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804A52C6218AA74500B6BD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804A52E2218AA79400B6BD8F /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80377D63218FDD54004A4B05 /* ZWYNetTool */ = {
+			isa = PBXGroup;
+			children = (
+				80377D65218FDD54004A4B05 /* ZWYNetTest.h */,
+				80377D67218FDD54004A4B05 /* ZWYNetTest.m */,
+				80377D66218FDD54004A4B05 /* ZWYNetTool.h */,
+				80377D64218FDD54004A4B05 /* ZWYNetTool.m */,
+			);
+			path = ZWYNetTool;
+			sourceTree = "<group>";
+		};
+		80377D6A218FDD6C004A4B05 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				80377D6B218FDD6C004A4B05 /* AFSecurityPolicy.h */,
+				80377D6C218FDD6C004A4B05 /* AFNetworkReachabilityManager.h */,
+				80377D6D218FDD6C004A4B05 /* AFURLSessionManager.h */,
+				80377D6E218FDD6C004A4B05 /* AFURLRequestSerialization.h */,
+				80377D6F218FDD6C004A4B05 /* AFURLResponseSerialization.m */,
+				80377D70218FDD6C004A4B05 /* AFHTTPSessionManager.m */,
+				80377D71218FDD6C004A4B05 /* AFURLResponseSerialization.h */,
+				80377D72218FDD6C004A4B05 /* AFURLSessionManager.m */,
+				80377D73218FDD6C004A4B05 /* AFURLRequestSerialization.m */,
+				80377D74218FDD6C004A4B05 /* AFNetworking.h */,
+				80377D75218FDD6C004A4B05 /* AFNetworkReachabilityManager.m */,
+				80377D76218FDD6C004A4B05 /* AFSecurityPolicy.m */,
+				80377D77218FDD6C004A4B05 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		80377D7E218FE2E4004A4B05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80377D8C2190267B004A4B05 /* ResCity */,
+				80377D7F218FE2EC004A4B05 /* City */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80377D7F218FE2EC004A4B05 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				80377D82218FE2F5004A4B05 /* ZWYCityA.h */,
+				80377D83218FE2F6004A4B05 /* ZWYCityA.m */,
+				80377D80218FE2F5004A4B05 /* ZWYCityCity.h */,
+				80377D81218FE2F5004A4B05 /* ZWYCityCity.m */,
+				80377D87218FE2F6004A4B05 /* ZWYCityData.h */,
+				80377D86218FE2F6004A4B05 /* ZWYCityData.m */,
+				80377D84218FE2F6004A4B05 /* ZWYCityModel.h */,
+				80377D85218FE2F6004A4B05 /* ZWYCityModel.m */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		80377D8C2190267B004A4B05 /* ResCity */ = {
+			isa = PBXGroup;
+			children = (
+				80377D9E21904321004A4B05 /* ZWYResFlight.h */,
+				80377D9F21904321004A4B05 /* ZWYResFlight.m */,
+				80377D9021902685004A4B05 /* ZWYResCity.h */,
+				80377D8D21902685004A4B05 /* ZWYResCity.m */,
+				80377D8F21902685004A4B05 /* ZWYResModel.h */,
+				80377D8E21902685004A4B05 /* ZWYResModel.m */,
+			);
+			path = ResCity;
+			sourceTree = "<group>";
+		};
+		80377D9321902A6C004A4B05 /* NumberTF */ = {
+			isa = PBXGroup;
+			children = (
+				80377D9621902A76004A4B05 /* BRNumberField.h */,
+				80377D9521902A76004A4B05 /* BRNumberField.m */,
+				80377D9421902A76004A4B05 /* BRNumberFormatter.h */,
+				80377D9721902A76004A4B05 /* BRNumberFormatter.m */,
+			);
+			path = NumberTF;
+			sourceTree = "<group>";
+		};
+		80377D9A21903B0D004A4B05 /* JX_GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				80377D9B21903B0D004A4B05 /* JX_GCDTimerManager.h */,
+				80377D9C21903B0D004A4B05 /* JX_GCDTimerManager.m */,
+			);
+			path = JX_GCDTimer;
+			sourceTree = "<group>";
+		};
+		804A52C0218AA74500B6BD8F = {
+			isa = PBXGroup;
+			children = (
+				804A52CB218AA74500B6BD8F /* ATMacOS */,
+				804A52CA218AA74500B6BD8F /* Products */,
+				804A52E0218AA79400B6BD8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		804A52CA218AA74500B6BD8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804A52C9218AA74500B6BD8F /* ATMacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804A52CB218AA74500B6BD8F /* ATMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				80377D9A21903B0D004A4B05 /* JX_GCDTimer */,
+				80377D9321902A6C004A4B05 /* NumberTF */,
+				80377D7E218FE2E4004A4B05 /* Model */,
+				80377D6A218FDD6C004A4B05 /* AFNetworking */,
+				80377D63218FDD54004A4B05 /* ZWYNetTool */,
+				804A52CC218AA74500B6BD8F /* AppDelegate.h */,
+				804A52CD218AA74500B6BD8F /* AppDelegate.m */,
+				804A52CF218AA74500B6BD8F /* ViewController.h */,
+				804A52D0218AA74500B6BD8F /* ViewController.m */,
+				804A52D2218AA74700B6BD8F /* Assets.xcassets */,
+				804A52D4218AA74700B6BD8F /* Main.storyboard */,
+				804A52D7218AA74700B6BD8F /* Info.plist */,
+				804A52D8218AA74700B6BD8F /* main.m */,
+				804A52DA218AA74700B6BD8F /* ATMacOS.entitlements */,
+				803C2E5821912338007E06A9 /* NSTableView+RightMenu.h */,
+				803C2E5921912338007E06A9 /* NSTableView+RightMenu.m */,
+			);
+			path = ATMacOS;
+			sourceTree = "<group>";
+		};
+		804A52E0218AA79400B6BD8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804A52E1218AA79400B6BD8F /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804A52C8218AA74500B6BD8F /* ATMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804A52DD218AA74700B6BD8F /* Build configuration list for PBXNativeTarget "ATMacOS" */;
+			buildPhases = (
+				804A52C5218AA74500B6BD8F /* Sources */,
+				804A52C6218AA74500B6BD8F /* Frameworks */,
+				804A52C7218AA74500B6BD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATMacOS;
+			productName = ATMacOS;
+			productReference = 804A52C9218AA74500B6BD8F /* ATMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804A52C1218AA74500B6BD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Yesoul;
+				TargetAttributes = {
+					804A52C8218AA74500B6BD8F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 804A52C4218AA74500B6BD8F /* Build configuration list for PBXProject "ATMacOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 804A52C0218AA74500B6BD8F;
+			productRefGroup = 804A52CA218AA74500B6BD8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804A52C8218AA74500B6BD8F /* ATMacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		804A52C7218AA74500B6BD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804A52D3218AA74700B6BD8F /* Assets.xcassets in Resources */,
+				804A52D6218AA74700B6BD8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804A52C5218AA74500B6BD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80377D8B218FE2F6004A4B05 /* ZWYCityData.m in Sources */,
+				80377D88218FE2F6004A4B05 /* ZWYCityCity.m in Sources */,
+				80377D8A218FE2F6004A4B05 /* ZWYCityModel.m in Sources */,
+				80377D7B218FDD6C004A4B05 /* AFURLRequestSerialization.m in Sources */,
+				803C2E5A21912338007E06A9 /* NSTableView+RightMenu.m in Sources */,
+				80377D9121902685004A4B05 /* ZWYResCity.m in Sources */,
+				80377D9221902685004A4B05 /* ZWYResModel.m in Sources */,
+				80377D69218FDD54004A4B05 /* ZWYNetTest.m in Sources */,
+				80377D7C218FDD6C004A4B05 /* AFNetworkReachabilityManager.m in Sources */,
+				80377D7A218FDD6C004A4B05 /* AFURLSessionManager.m in Sources */,
+				804A52D1218AA74500B6BD8F /* ViewController.m in Sources */,
+				80377D89218FE2F6004A4B05 /* ZWYCityA.m in Sources */,
+				80377D9921902A76004A4B05 /* BRNumberFormatter.m in Sources */,
+				80377D9821902A76004A4B05 /* BRNumberField.m in Sources */,
+				804A52D9218AA74700B6BD8F /* main.m in Sources */,
+				80377D68218FDD54004A4B05 /* ZWYNetTool.m in Sources */,
+				80377D78218FDD6C004A4B05 /* AFURLResponseSerialization.m in Sources */,
+				80377DA021904322004A4B05 /* ZWYResFlight.m in Sources */,
+				80377D79218FDD6C004A4B05 /* AFHTTPSessionManager.m in Sources */,
+				80377D7D218FDD6C004A4B05 /* AFSecurityPolicy.m in Sources */,
+				80377D9D21903B0D004A4B05 /* JX_GCDTimerManager.m in Sources */,
+				804A52CE218AA74500B6BD8F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		804A52D4218AA74700B6BD8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804A52D5218AA74700B6BD8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		804A52DB218AA74700B6BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		804A52DC218AA74700B6BD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		804A52DE218AA74700B6BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5MGGCC3P9;
+				INFOPLIST_FILE = ATMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesoul.ATMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		804A52DF218AA74700B6BD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5MGGCC3P9;
+				INFOPLIST_FILE = ATMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesoul.ATMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804A52C4218AA74500B6BD8F /* Build configuration list for PBXProject "ATMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804A52DB218AA74700B6BD8F /* Debug */,
+				804A52DC218AA74700B6BD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804A52DD218AA74700B6BD8F /* Build configuration list for PBXNativeTarget "ATMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804A52DE218AA74700B6BD8F /* Debug */,
+				804A52DF218AA74700B6BD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804A52C1218AA74500B6BD8F /* Project object */;
+}
