@@ -419,8 +419,7 @@
 
 - (void)_pickTime {
     NSDatePicker *datePicker = [[NSDatePicker alloc] initWithFrame:NSMakeRect(0, 0, 500, 500)];
-    [datePicker setDatePickerStyle:NSDatePickerStyleClockAndCalendar];
-    
+    [datePicker setDatePickerStyle:NSClockAndCalendarDatePickerStyle];
     // 设置日期选择控件的类型为“时钟和日历”。其他类型有如，NSTextField文本框
     [datePicker setDateValue:[NSDate date]];
     // 初始化选中当前日期
@@ -471,10 +470,17 @@
 }
 
 - (NSMutableArray *)hotCityNameArr {
-    if (_hotCityNameArr) {
+    if (!_hotCityNameArr) {
         _hotCityNameArr = [NSMutableArray array];
     }
     return _hotCityNameArr;
+}
+
+- (NSMutableArray *)resultCityArr {
+    if (!_resultCityArr) {
+        _resultCityArr = [NSMutableArray array];
+    }
+    return _resultCityArr;
 }
 
 - (ZWYResModel *)resModel {
