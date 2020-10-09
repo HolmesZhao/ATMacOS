@@ -30,6 +30,8 @@
 @property (weak) IBOutlet BRNumberField *timeTF;
 @property (weak) IBOutlet BRNumberField *priceTF;
 @property (weak) IBOutlet NSButton *dateBtn;
+@property (weak) IBOutlet NSButton *checkDirectBtn;
+@property (weak) IBOutlet NSButton *dockBtn;
 
 
 @property (nonatomic, assign) BOOL isSearching;
@@ -56,6 +58,8 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    self.checkDirectBtn.state = [NSUserDefaults.standardUserDefaults integerForKey:@"checkDirect"];
+    
     NSClickGestureRecognizer *startTFTap = [[NSClickGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
     NSClickGestureRecognizer *endTFTap = [[NSClickGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
     [self.startTF addGestureRecognizer:startTFTap];
@@ -121,6 +125,11 @@
     NSString *url = [NSString stringWithFormat:@"https://zwy.dwct221.cn/ZWYDemo/tickets/airplane.php?dcity=%@&dcityname=%@&acity=%@&acityname=%@&date=%@", [city.dataS componentsSeparatedByString:@"|"].lastObject, city.displayS, [city.dataE componentsSeparatedByString:@"|"].lastObject, city.displayE, city.date];
     [ZWYNetTool GET:url Body:nil Header:nil Response:ZWYJSON Progress:^(id  _Nonnull progress) {
     } SuccessBlock:^(id  _Nonnull result) {
+        
+        if ([result[@"res"][@"data"][@"code"] intValue] > 0) {
+            return;
+        }
+        
         if ([result[@"res"][@"status"] intValue] == 0) {
             ZWYResFlight *flight_result = [ZWYResFlight new];
             CGFloat money = CGFLOAT_MAX;
@@ -129,6 +138,10 @@
                 NSArray *cabinsS;
                 NSArray *cabinsE;
                 NSMutableArray *cabinsSE = [NSMutableArray array];
+                if (self.checkDirectBtn.state == NSControlStateValueOn &&
+                    arr.count > 1) {
+                    continue;
+                }
                 for (NSDictionary *dic in arr) {
                     if ([arr indexOfObject:dic] > 0) {
                         flight.airlineNameE = [NSString stringWithFormat:@"%@(%@)", dic[@"flight"][@"airlineName"], dic[@"flight"][@"flightNumber"]];
@@ -327,6 +340,21 @@
     self.resModel.cities = self.resultCityArr;
     [self.resModel save];
     [self.rightTable reloadData];
+}
+
+- (IBAction)checkDirect:(NSButton *)sender {
+    [NSUserDefaults.standardUserDefaults setInteger:sender.state forKey:@"checkDirect"];
+    [NSUserDefaults.standardUserDefaults synchronize];
+}
+
+- (IBAction)checkDock:(NSButton *)sender {
+    if (sender.state == NSControlStateValueOn) {
+        [NSApp setActivationPolicy:NSApplicationActivationPolicyAccessory];
+    } else {
+        [NSApp setActivationPolicy:NSApplicationActivationPolicyRegular];
+    }
+    [NSUserDefaults.standardUserDefaults setInteger:sender.state forKey:@"checkDock"];
+    [NSUserDefaults.standardUserDefaults synchronize];
 }
 
 - (IBAction)searchA:(NSSearchField *)sender {

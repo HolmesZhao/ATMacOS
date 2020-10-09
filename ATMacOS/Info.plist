@@ -32,12 +32,12 @@
 	<false/>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
-	<key>LSUIElement</key>
-	<false/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>LSUIElement</key>
+	<false/>
 </dict>
 </plist>
